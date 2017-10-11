@@ -1,0 +1,13 @@
+package com.example.gongtong.designpatterns;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class LookDesignActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_look_design);
+    }
+}
